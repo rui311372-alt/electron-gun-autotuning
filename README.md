@@ -4,7 +4,7 @@
 
 Image-feedback autotuning of a real microfocus electron gun, with Bayesian candidate selection and offline identification of a stability-constrained optimal point.
 
-This repository contains experimental control scripts, a hardware-independent offline example, and selected experimental tables and reports. **It does not yet provide the complete raw-image dataset or a ready-to-run hardware installation.**
+This repository contains experimental control scripts, a hardware-independent offline example, and selected experimental tables and reports. The available experimental images are distributed separately in the [images-v1 release](https://github.com/rui311372-alt/electron-gun-autotuning/releases/tag/images-v1). **This image snapshot does not cover every experiment in the manuscript, and the repository is not a ready-to-run hardware installation.**
 
 ## Overview
 
@@ -127,19 +127,44 @@ See [the detailed offline instructions (Chinese)](code/offline/使用说明.md) 
 
 Original experimental category names are retained. Files in different folders can describe the same measurements; file counts and summary tables must not be added together as independent sample sizes.
 
-| Material | Repository location | Available through Git |
+| Material | Location in the project | Availability |
 | --- | --- | --- |
 | Four-run candidate-level example | `code/offline/candidate_data.csv` | CSV and reference results |
-| Detailed fixed-condition runs | `data/固定工况下，最优点细致测试/` | Workbooks, JSON records, text reports, and selected PDF plots; not the raw/fit image files |
+| Detailed fixed-condition runs | `data/固定工况下，最优点细致测试/` | Workbooks, JSON records, text reports, and selected PDF plots in Git; 1,106 image files in the separate release archive |
 | Ten-run summary | `data/10次闭环运行最优点与score.xlsx` and the corresponding ten-run subfolder | Summary workbooks, not all ten runs' raw records |
 | High-voltage stability test | `data/高Uc稳定性测试/` | Workbook |
 | Power-cycle retest | `data/断电测试/` | Separate workbook |
-| Same-image fitting test | Author's local `data/同样图片拟合测试/` | Not included; current files are ignored images |
+| Same-image fitting test | `data/同样图片拟合测试/` after restoring the archive | 20 image files in the separate release archive, not in Git |
 | Nine-condition matrix test | Author's local `data/3乘3矩阵测试/` | No files supplied in this folder |
 
 The high-voltage stability test and the power-cycle retest are **separate datasets**. Power-cycle summaries use the arithmetic mean of three image scores, unlike the closest-pair mean used for optimal-point selection. The workbook field “三次相对差” (relative range) is not CV.
 
-Raw and fitted-image files are retained in the author's local copy but excluded by [.gitignore](.gitignore). A complete image archive and download link have not been provided. A fresh clone therefore supports the supplied tabular offline example, **not full image-to-result reproduction**. Further provenance details are in [the data guide (Chinese)](data/README.md).
+Image files remain excluded from ordinary Git tracking by [.gitignore](.gitignore). A fresh clone supports the supplied tabular offline example; download the separate image archive to restore the available image data. Image availability does **not** establish complete image-to-result reproduction: the experiment-specific processing configuration and software environment still need to be matched. Further provenance details are in [the data guide (Chinese)](data/README.md).
+
+### Download and restore the images
+
+[Experimental image data v1 — release page](https://github.com/rui311372-alt/electron-gun-autotuning/releases/tag/images-v1)
+
+| Release asset | Contents |
+| --- | --- |
+| [electron-gun-images-v1.zip](https://github.com/rui311372-alt/electron-gun-autotuning/releases/download/images-v1/electron-gun-images-v1.zip) | 1,126 image files: 553 TIF and 573 PNG; archive size 1,281,433,066 bytes (about 1.19 GiB) |
+| [image_manifest.csv](https://github.com/rui311372-alt/electron-gun-autotuning/releases/download/images-v1/image_manifest.csv) | Image-relative paths, byte counts, and SHA-256 checksums |
+| [SHA256SUMS.txt](https://github.com/rui311372-alt/electron-gun-autotuning/releases/download/images-v1/SHA256SUMS.txt) | Checksums for the ZIP and standalone manifest |
+
+This pre-release is an image-data snapshot associated with code commit `66aed4154423e8f4f8f2bf057c3c82871e52916e`. It contains original acquisition images, fitted/processed images, and image-format reports/plots. Its 1,126 files are not 1,126 independent experimental observations. The archive was read back and each image was SHA-256 checked against the source before upload; no image was resized or re-encoded.
+
+1. Sign in to a GitHub account with access to this private repository. Access is required for both the release page and its attachments.
+2. Download the three assets above. **The automatically generated “Source code (zip)” and “Source code (tar.gz)” are code snapshots, not the image archive.**
+3. Check the downloaded ZIP against `SHA256SUMS.txt`. For example, run the following from its download folder in Windows PowerShell:
+
+   ```powershell
+   Get-FileHash -LiteralPath .\electron-gun-images-v1.zip -Algorithm SHA256
+   ```
+
+4. Extract the ZIP into a separate temporary folder. Copy its `data/` contents into the repository's `data/` directory, preserving all subfolders. If a file already exists, compare its checksum before replacing it.
+5. Keep the images outside ordinary Git commits. The archive also includes `IMAGE_ARCHIVE_README.md`, an embedded manifest, and `image_archive_metadata.json`. No Git LFS installation is needed for this separate ZIP download.
+
+This release does not include camera SDKs or drivers, add missing nine-condition records, or grant a new license.
 
 ## Online scripts and hardware requirements
 
@@ -153,4 +178,4 @@ The existing [online dependency file](code/online/requirements.txt) is not a com
 
 No code or data license is assigned in this repository yet. Public redistribution and reuse terms require confirmation by the authors and laboratory; third-party camera components have separate rights. This repository should not be described as a complete open-source release until those matters are resolved.
 
-No paper DOI or finalized citation is supplied here. Add the confirmed paper citation and a versioned code/data release when available. See [packaging notes and release checks (Chinese)](docs/PACKAGING_NOTES.md).
+No paper DOI or finalized citation is supplied here. The current image snapshot is versioned as `images-v1`; add the confirmed paper citation and a complete publication-specific code/data release when available. See [packaging notes and release checks (Chinese)](docs/PACKAGING_NOTES.md).

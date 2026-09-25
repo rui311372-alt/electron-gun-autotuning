@@ -4,7 +4,7 @@
 
 基于贝叶斯候选推荐与稳定性约束最优点选取的真实微焦点电子枪图像反馈自动调参项目。
 
-本仓库包含实验控制程序、无需连接设备的离线分析示例，以及部分实验表格和报告。**目前不包含完整原始图像数据集，也不是安装后即可直接运行设备的完整软件包。**
+本仓库包含实验控制程序、无需连接设备的离线分析示例，以及部分实验表格和报告。现有实验图片通过 [images-v1 发布页](https://github.com/rui311372-alt/electron-gun-autotuning/releases/tag/images-v1)单独提供。**这份图片快照尚未覆盖论文中的所有实验，仓库也不是安装后即可直接运行设备的完整软件包。**
 
 ## 项目概述
 
@@ -127,19 +127,44 @@ CSV 使用 UTF-8 编码，每行对应一个候选，必须包含以下列：
 
 实验资料保留原分类名称。不同文件夹可能包含同一批测量的不同汇总，不能把文件数或重复汇总表相加为独立样本量。
 
-| 资料 | 仓库位置 | 通过 Git 可获得的内容 |
+| 资料 | 项目中的位置 | 获取方式 |
 | --- | --- | --- |
 | 四次运行的候选级示例 | `code/offline/candidate_data.csv` | CSV 及参考结果 |
-| 固定工况细致测试 | `data/固定工况下，最优点细致测试/` | 工作簿、JSON 记录、文字报告及部分 PDF 图；不含原始及拟合图像文件 |
+| 固定工况细致测试 | `data/固定工况下，最优点细致测试/` | 工作簿、JSON 记录、文字报告及部分 PDF 图通过 Git 提供；1,106 个图像文件在独立 Release 图片包中 |
 | 十次运行汇总 | `data/10次闭环运行最优点与score.xlsx` 及相应十次测试子目录 | 汇总工作簿，不代表十次运行原始记录已全部提供 |
 | 高电压稳定性测试 | `data/高Uc稳定性测试/` | 工作簿 |
 | 断电复测 | `data/断电测试/` | 单独保存的工作簿 |
-| 同一图像拟合测试 | 作者本地的 `data/同样图片拟合测试/` | 未纳入 Git；当前文件均为被忽略的图像 |
+| 同一图像拟合测试 | 解压恢复后的 `data/同样图片拟合测试/` | 20 个图像文件在独立 Release 图片包中，不纳入普通 Git 跟踪 |
 | 九工况矩阵测试 | 作者本地的 `data/3乘3矩阵测试/` | 该目录尚未提供文件 |
 
 高电压稳定性测试与断电复测是**分别保存的数据集**。断电复测汇总使用 3 次 score 的算术均值，与最优点选取中的最接近两次平均不同；工作簿里的“三次相对差”也不能直接称为 CV。
 
-原始图像与拟合图像保留在作者的本地副本中，由 [.gitignore](.gitignore) 排除。完整图像归档及下载链接尚未提供。因此，新克隆的仓库可用于附带的表格离线示例，**不能据此完整复现从原始图像到最终结果的全部流程**。数据来源和整理范围详见 [data/README.md](data/README.md)。
+图像仍由 [.gitignore](.gitignore) 排除普通 Git 跟踪。新克隆的仓库可以运行附带的表格离线示例，另行下载图片包即可恢复现有图像数据。图片可获取**不等于从原图到结果的全部流程已完成复现验证**，仍需匹配各实验实际使用的处理配置与软件环境。数据来源和整理范围详见 [data/README.md](data/README.md)。
+
+### 图片下载与目录恢复
+
+[Experimental image data v1 — 图片发布页](https://github.com/rui311372-alt/electron-gun-autotuning/releases/tag/images-v1)
+
+| 发布附件 | 内容 |
+| --- | --- |
+| [electron-gun-images-v1.zip](https://github.com/rui311372-alt/electron-gun-autotuning/releases/download/images-v1/electron-gun-images-v1.zip) | 1,126 个图像文件：553 个 TIF、573 个 PNG；ZIP 大小 1,281,433,066 字节，约 1.19 GiB |
+| [image_manifest.csv](https://github.com/rui311372-alt/electron-gun-autotuning/releases/download/images-v1/image_manifest.csv) | 图像相对路径、字节数及 SHA-256 校验值 |
+| [SHA256SUMS.txt](https://github.com/rui311372-alt/electron-gun-autotuning/releases/download/images-v1/SHA256SUMS.txt) | ZIP 和独立清单文件的校验值 |
+
+该预发布版本是与代码提交 `66aed4154423e8f4f8f2bf057c3c82871e52916e` 对应的图像数据快照，包含原始采集图、拟合/处理图和图像格式的报告、关系图。1,126 个文件不代表 1,126 个独立实验观测。上传前已读回压缩包，并逐图与源文件核对 SHA-256；没有缩放或重新编码图片。
+
+1. 登录具有该私有仓库访问权限的 GitHub 账号。发布页和附件都需要相应权限。
+2. 下载上述三个附件。**GitHub 自动提供的 “Source code (zip)” 和 “Source code (tar.gz)” 是代码快照，不是图片压缩包。**
+3. 将下载后的 ZIP 校验值与 `SHA256SUMS.txt` 比较。例如，在下载目录打开 Windows PowerShell，执行：
+
+   ```powershell
+   Get-FileHash -LiteralPath .\electron-gun-images-v1.zip -Algorithm SHA256
+   ```
+
+4. 先解压到独立临时目录，再将其中 `data/` 的内容复制到仓库的 `data/` 下，保留各级子目录。遇到同名文件时先核对校验值，不要直接覆盖。
+5. 图片继续保持普通 Git 忽略状态。ZIP 内还包含 `IMAGE_ARCHIVE_README.md`、一份清单及 `image_archive_metadata.json`；下载这个独立 ZIP 不需要安装 Git LFS。
+
+此次图片发布不包含相机 SDK 或驱动，不补足尚缺的九工况记录，也不新增授权许可。
 
 ## 在线程序与设备要求
 
@@ -153,4 +178,4 @@ CSV 使用 UTF-8 编码，每行对应一个候选，必须包含以下列：
 
 仓库尚未指定代码和数据许可证。对外发布及复用范围需要作者与实验室确认，第三方相机组件另有权利限制；在这些事项明确前，不应将本仓库称为完整开源发布。
 
-此处未填写论文 DOI 或最终引用条目。论文信息确认后，再补充正式引用及代码、数据版本。公开前检查事项见 [docs/PACKAGING_NOTES.md](docs/PACKAGING_NOTES.md)。
+此处未填写论文 DOI 或最终引用条目。当前图片快照已标记为 `images-v1`；论文信息确认后，再补充正式引用及对应完整论文资料的代码、数据版本。公开前检查事项见 [docs/PACKAGING_NOTES.md](docs/PACKAGING_NOTES.md)。

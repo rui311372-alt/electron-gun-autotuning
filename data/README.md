@@ -14,11 +14,19 @@
 
 上述数量只说明本次复制范围，不代表每类实验的原始记录均已齐全。合计复制1151个实验资料文件；根目录的设备SDK运行日志未复制。不要把不同试验、重复汇总表或不同数据层级相加为独立样本量。
 
-## 图像的保存状态
+## 图像的保存与下载
 
-1126个图像文件已保留在本地目录中，由根目录 `.gitignore` 排除普通 Git 提交。因此，GitHub 端不会自动拥有这些图像。完整图像的上传或归档方式尚未确定。
+1126个图像文件仍由根目录 `.gitignore` 排除普通 Git 提交，现已通过 [images-v1 预发布版本](https://github.com/rui311372-alt/electron-gun-autotuning/releases/tag/images-v1)的附件单独提供，而不是放进 Git 历史。
 
-在确定图像下载入口、实验记录对应关系和文件校验信息前，本目录只能作为整理中的数据包，不能宣称完整图像处理结果已在新环境复现。
+- [electron-gun-images-v1.zip](https://github.com/rui311372-alt/electron-gun-autotuning/releases/download/images-v1/electron-gun-images-v1.zip)：553个TIF和573个PNG，包含原始采集图、拟合/处理图及其他图像格式报告；ZIP约1.19 GiB。
+- [image_manifest.csv](https://github.com/rui311372-alt/electron-gun-autotuning/releases/download/images-v1/image_manifest.csv)：逐图相对路径、字节数和SHA-256。
+- [SHA256SUMS.txt](https://github.com/rui311372-alt/electron-gun-autotuning/releases/download/images-v1/SHA256SUMS.txt)：ZIP及清单的校验值。
+
+其中，固定工况细致测试包含1106个图像文件，同一图像拟合测试包含20个图像文件。归档与代码提交 `66aed4154423e8f4f8f2bf057c3c82871e52916e` 对应，上传前已逐文件核对源数据、仓库副本和ZIP解压内容的一致性。
+
+访问附件需要登录具有该私有仓库权限的账号。请单独下载图片ZIP，不要误用GitHub自动生成的代码ZIP。先解压到独立临时目录，再将包内 `data/` 的内容按原相对路径放入项目 `data/`；同名文件应先比较校验值再决定是否替换。解压说明见[中文项目说明](../README.zh-CN.md)。
+
+该归档覆盖当前提供的图像文件，不代表所有实验的原始记录已齐全；图片数量也不能作为独立样本量。图片可下载不等于完整图像处理结果已在新环境复现，仍需核对各次实验的处理配置和记录对应关系。
 
 ## 数据含义
 
