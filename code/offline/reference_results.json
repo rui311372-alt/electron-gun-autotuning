@@ -1,0 +1,278 @@
+{
+  "method": {
+    "aggregation": "closest_pair",
+    "cost_model": "laplace",
+    "min_segment_size": 4,
+    "penalty_mode": "segment_parameters",
+    "log_cv_epsilon": 1e-06,
+    "cv_input_unit": "percent value",
+    "selection": "minimum measured candidate score in terminal low-CV branch"
+  },
+  "excluded_rows": [],
+  "results": [
+    {
+      "run": "短预算1",
+      "aggregation": "closest_pair",
+      "cost_model": "laplace",
+      "penalty_mode": "segment_parameters",
+      "min_segment_size": 4,
+      "candidate_count": 30,
+      "segment_count": 4,
+      "transition_lower_uc": 625.0,
+      "transition_upper_uc": 631.0,
+      "stable_start_uc": 631.0,
+      "optimum_uc": 631.0,
+      "optimum_score": 31.40455,
+      "stable_candidate_count": 15,
+      "pre_transition_median_cv": 7.1969568585369075,
+      "stable_branch_median_cv": 1.2908963249616674,
+      "low_state_center_log_cv": 0.11144416669574085,
+      "high_state_center_log_cv": 1.9503894410678642,
+      "segments": [
+        {
+          "start": 0,
+          "stop": 7,
+          "uc_min": 504.0,
+          "uc_max": 543.0,
+          "count": 7,
+          "median_cv": 7.1969568585369075,
+          "median_log_cv": 1.9736584170877804,
+          "state": "high"
+        },
+        {
+          "start": 7,
+          "stop": 15,
+          "uc_min": 557.0,
+          "uc_max": 625.0,
+          "count": 8,
+          "median_cv": 7.14699221750704,
+          "median_log_cv": 1.9300290870504375,
+          "state": "high"
+        },
+        {
+          "start": 15,
+          "stop": 25,
+          "uc_min": 631.0,
+          "uc_max": 706.0,
+          "count": 10,
+          "median_cv": 1.0444225397215596,
+          "median_log_cv": 0.029394420733560286,
+          "state": "low"
+        },
+        {
+          "start": 25,
+          "stop": 30,
+          "uc_min": 713.0,
+          "uc_max": 750.0,
+          "count": 5,
+          "median_cv": 1.3172456127128989,
+          "median_log_cv": 0.275543658620102,
+          "state": "low"
+        }
+      ]
+    },
+    {
+      "run": "短预算2",
+      "aggregation": "closest_pair",
+      "cost_model": "laplace",
+      "penalty_mode": "segment_parameters",
+      "min_segment_size": 4,
+      "candidate_count": 30,
+      "segment_count": 2,
+      "transition_lower_uc": 631.0,
+      "transition_upper_uc": 638.0,
+      "stable_start_uc": 638.0,
+      "optimum_uc": 638.0,
+      "optimum_score": 32.1084,
+      "stable_candidate_count": 14,
+      "pre_transition_median_cv": 7.178043521210261,
+      "stable_branch_median_cv": 0.988950762671831,
+      "low_state_center_log_cv": -0.011115996637656885,
+      "high_state_center_log_cv": 1.9709636670286774,
+      "segments": [
+        {
+          "start": 0,
+          "stop": 16,
+          "uc_min": 504.0,
+          "uc_max": 631.0,
+          "count": 16,
+          "median_cv": 7.178043521210261,
+          "median_log_cv": 1.9709636670286774,
+          "state": "high"
+        },
+        {
+          "start": 16,
+          "stop": 30,
+          "uc_min": 638.0,
+          "uc_max": 750.0,
+          "count": 14,
+          "median_cv": 0.988950762671831,
+          "median_log_cv": -0.011115996637656885,
+          "state": "low"
+        }
+      ]
+    },
+    {
+      "run": "长预算1",
+      "aggregation": "closest_pair",
+      "cost_model": "laplace",
+      "penalty_mode": "segment_parameters",
+      "min_segment_size": 4,
+      "candidate_count": 60,
+      "segment_count": 7,
+      "transition_lower_uc": 618.0,
+      "transition_upper_uc": 622.0,
+      "stable_start_uc": 622.0,
+      "optimum_uc": 622.0,
+      "optimum_score": 30.87535,
+      "stable_candidate_count": 31,
+      "pre_transition_median_cv": 6.180954746719239,
+      "stable_branch_median_cv": 1.0618212670425238,
+      "low_state_center_log_cv": 0.09692986569271415,
+      "high_state_center_log_cv": 1.9493571292577407,
+      "segments": [
+        {
+          "start": 0,
+          "stop": 9,
+          "uc_min": 504.0,
+          "uc_max": 535.0,
+          "count": 9,
+          "median_cv": 6.777332752011857,
+          "median_log_cv": 1.9135837726928366,
+          "state": "high"
+        },
+        {
+          "start": 9,
+          "stop": 16,
+          "uc_min": 536.0,
+          "uc_max": 557.0,
+          "count": 7,
+          "median_cv": 7.621230383266889,
+          "median_log_cv": 2.030937955496789,
+          "state": "high"
+        },
+        {
+          "start": 16,
+          "stop": 25,
+          "uc_min": 563.0,
+          "uc_max": 598.0,
+          "count": 9,
+          "median_cv": 1.1282003063909696,
+          "median_log_cv": 0.12062460026578187,
+          "state": "low"
+        },
+        {
+          "start": 25,
+          "stop": 29,
+          "uc_min": 601.0,
+          "uc_max": 618.0,
+          "count": 4,
+          "median_cv": 6.64045197626854,
+          "median_log_cv": 1.887080735610441,
+          "state": "high"
+        },
+        {
+          "start": 29,
+          "stop": 40,
+          "uc_min": 622.0,
+          "uc_max": 659.0,
+          "count": 11,
+          "median_cv": 1.3646194667201168,
+          "median_log_cv": 0.31087634361597866,
+          "state": "low"
+        },
+        {
+          "start": 40,
+          "stop": 46,
+          "uc_min": 662.0,
+          "uc_max": 680.0,
+          "count": 6,
+          "median_cv": 0.5653996838593767,
+          "median_log_cv": -0.5702718685947161,
+          "state": "low"
+        },
+        {
+          "start": 46,
+          "stop": 60,
+          "uc_min": 686.0,
+          "uc_max": 750.0,
+          "count": 14,
+          "median_cv": 1.2218829954178574,
+          "median_log_cv": 0.19954033265064722,
+          "state": "low"
+        }
+      ]
+    },
+    {
+      "run": "长预算2",
+      "aggregation": "closest_pair",
+      "cost_model": "laplace",
+      "penalty_mode": "segment_parameters",
+      "min_segment_size": 4,
+      "candidate_count": 60,
+      "segment_count": 5,
+      "transition_lower_uc": 616.0,
+      "transition_upper_uc": 620.0,
+      "stable_start_uc": 620.0,
+      "optimum_uc": 620.0,
+      "optimum_score": 31.8338,
+      "stable_candidate_count": 29,
+      "pre_transition_median_cv": 7.162016970961084,
+      "stable_branch_median_cv": 0.877416718021674,
+      "low_state_center_log_cv": -0.13077209667493853,
+      "high_state_center_log_cv": 1.935678840214426,
+      "segments": [
+        {
+          "start": 0,
+          "stop": 4,
+          "uc_min": 505.0,
+          "uc_max": 537.0,
+          "count": 4,
+          "median_cv": 3.7611437910752294,
+          "median_log_cv": 1.0402854446761556,
+          "state": "high"
+        },
+        {
+          "start": 4,
+          "stop": 17,
+          "uc_min": 538.0,
+          "uc_max": 555.0,
+          "count": 13,
+          "median_cv": 8.340444005360279,
+          "median_log_cv": 2.121116572904038,
+          "state": "high"
+        },
+        {
+          "start": 17,
+          "stop": 27,
+          "uc_min": 561.0,
+          "uc_max": 598.0,
+          "count": 10,
+          "median_cv": 8.596475968661508,
+          "median_log_cv": 2.039708665892958,
+          "state": "high"
+        },
+        {
+          "start": 27,
+          "stop": 31,
+          "uc_min": 604.0,
+          "uc_max": 616.0,
+          "count": 4,
+          "median_cv": 7.1586757270790216,
+          "median_log_cv": 1.9683250403151256,
+          "state": "high"
+        },
+        {
+          "start": 31,
+          "stop": 60,
+          "uc_min": 620.0,
+          "uc_max": 750.0,
+          "count": 29,
+          "median_cv": 0.877416718021674,
+          "median_log_cv": -0.13077209667493853,
+          "state": "low"
+        }
+      ]
+    }
+  ]
+}

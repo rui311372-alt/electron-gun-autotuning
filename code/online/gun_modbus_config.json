@@ -1,0 +1,39 @@
+{
+  "_note": "电子枪 Modbus 串口。环境变量 GUN_MODBUS_CONFIG 可指向其它 JSON。无命令行参数时由 GunModbusClient 默认加载本文件。",
+
+  "slave": 4,
+  "slave_comment": "从站地址，与旧 modbus.py 中 0x04 一致",
+
+  "serial": {
+    "port": "COM3",
+    "baudrate": 9600,
+    "bytesize": 8,
+    "parity": "N",
+    "stopbits": 1,
+    "timeout_s": 1.0
+  },
+
+  "bias_stable": {
+    "eps_v": 5,
+    "samples": 6,
+    "poll_s": 5,
+    "timeout_s": 200.0
+  },
+  "bias_stable_comment": "设 BIAS 后轮询 BIAS VFBK，连续 samples 次 |读数-目标|<=eps_v 视为平稳（PDF：取平稳后的 BIAS V）",
+
+  "param_limits": {
+    "anode_kv": [100],
+    "anode_kv_comment": "Ua 枚举网格值",
+    "anode_ua": [80],
+    "anode_ua_comment": "Ia 枚举网格值",
+    "cathode_v": {"min": 500, "max": 750},
+    "cathode_v_comment": "Uc 搜索空间",
+    "bias_v": {"min": 200, "max": 200},
+    "bias_v_comment": "固定 200V",
+    "fil_a": 0.45,
+    "fil_a_comment": "固定 If 值",
+    "exposure_constant_c": 183678750,
+    "exposure_constant_c_comment": "曝光常数 C = Ua^2 * Ia * exposure_time_us，由图像良好的一组参数反推得到"
+  },
+  "param_limits_comment": "写参/闭环前校验；单位 kV、uA、V、V、A"
+}

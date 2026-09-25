@@ -1,0 +1,51 @@
+# Python and development-only files
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and device-session state
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+.gun_modbus_session
+
+# Runtime/OS files, not experimental measurement reports
+SLSDK_PLEORA_log.txt
+Thumbs.db
+.DS_Store
+~$*
+.~lock.*
+
+# Vendor camera SDK: retained locally, distribution permission not yet verified
+/code/online/camera_cap/SDK/
+/code/online/camera_cap/SLDevicePythonWrapper.pyd
+
+# New offline outputs stay local; reference_results.json remains versioned
+/code/offline/results/
+
+# Image data are copied locally but not ready for ordinary Git upload.
+# Choose Git LFS or an external data archive BEFORE removing these rules.
+/data/**/*.tif
+/data/**/*.tiff
+/data/**/*.png
+/data/**/*.jpg
+/data/**/*.jpeg
+/data/**/*.TIF
+/data/**/*.TIFF
+/data/**/*.PNG
+/data/**/*.JPG
+/data/**/*.JPEG

@@ -1,0 +1,21 @@
+{
+  "_note": "相机软触发采集；与《平板探测器软触发图像采集说明文档(1).pdf》及 Software Trigger Example 流程一致。路径相对工程根。运行时只使用 camera_capture/vendor；请先执行 python -m camera_capture.sync_vendor。CAMERA_SDK_DLL_DIR / CAMERA_CAPTURE_CONFIG 可覆盖路径。",
+
+  "sdk_dll_dir": "camera_capture/vendor/sdk/x64/Release",
+  "sdk_dll_dir_comment": "含 SLDeviceNetWrapper.dll、SLDevicePythonWrapper.pyd 等；勿指向 Example_Code_Python。可用 CAMERA_SDK_DLL_DIR 绝对路径覆盖",
+
+  "wrapper_extra_sys_path": "",
+  "wrapper_extra_sys_path_comment": "留空则与 sdk_dll_dir 同目录加入 sys.path（与 PDF 中 DLL 与 pyd 同路径一致）；若 .pyd 单独放置再填此项",
+
+  "output_dir": "captured_tif",
+  "output_dir_comment": "单张采集默认写入本目录下的 single.tif（与 analysis_config.io.single_image 一致）；多帧 -n>1 时为 single_001.tif 等",
+
+  "device_interface": "PLEORA",
+  "device_interface_comment": "当前仅支持 PLEORA",
+
+  "camera_index": null,
+  "camera_index_comment": "null 用默认 SLDevice(PLEORA)；整数则用 ScanCameras 列表中该下标",
+
+  "dds": false,
+  "dds_comment": "与厂商示例 SetDDS 一致"
+}

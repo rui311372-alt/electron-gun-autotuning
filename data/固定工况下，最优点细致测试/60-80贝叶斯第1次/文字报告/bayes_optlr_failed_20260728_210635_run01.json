@@ -1,0 +1,76 @@
+[
+  {
+    "iteration": 37,
+    "params": {
+      "anode_kv": 100.0,
+      "anode_ua": 80.0,
+      "cathode_v": 573.0,
+      "bias_v": 200.0,
+      "fil_a": 0.45
+    },
+    "feedback": {
+      "anode_kv": 99.72121766994735,
+      "anode_ua": 80.54474708171206,
+      "cathode_v": 576.9230769230769,
+      "bias_v": 67.01762417029069,
+      "fil_a": 0.4519340810254063
+    },
+    "reason": "最接近两张有效图的 score 相对差异超过 10%（实际 12.89%）",
+    "image_path": null,
+    "debug_path": null,
+    "shots": [
+      {
+        "shot": 1,
+        "feedback_before_capture": {
+          "anode_kv": 99.72121766994735,
+          "anode_ua": 80.56191348134584,
+          "cathode_v": 576.9230769230769,
+          "bias_v": 66.54077973601892,
+          "fil_a": 0.45190547035934997
+        },
+        "success": true,
+        "score": 34.2329,
+        "x1": 13.5443,
+        "x2": 31.4395,
+        "reason": "",
+        "image_path": "D:\\RESULT\\captured_tif\\20260728_210635_run01\\iter_037_shot_001.tif",
+        "debug_path": "D:\\RESULT\\out\\20260728_210635_run01\\iter_037_shot_001_debug.png"
+      },
+      {
+        "shot": 2,
+        "feedback_before_capture": {
+          "anode_kv": 99.72121766994735,
+          "anode_ua": 80.5676356145571,
+          "cathode_v": 576.9230769230769,
+          "bias_v": 66.78873884184024,
+          "fil_a": 0.45190547035934997
+        },
+        "success": true,
+        "score": 41.4701,
+        "x1": 13.4692,
+        "x2": 39.2218,
+        "reason": "",
+        "image_path": "D:\\RESULT\\captured_tif\\20260728_210635_run01\\iter_037_shot_002.tif",
+        "debug_path": "D:\\RESULT\\out\\20260728_210635_run01\\iter_037_shot_002_debug.png"
+      },
+      {
+        "shot": 3,
+        "feedback_before_capture": {
+          "anode_kv": 99.72121766994735,
+          "anode_ua": 80.54474708171206,
+          "cathode_v": 576.9230769230769,
+          "bias_v": 67.01762417029069,
+          "fil_a": 0.4519340810254063
+        },
+        "success": true,
+        "score": 46.8176,
+        "x1": 13.6692,
+        "x2": 44.7777,
+        "reason": "",
+        "image_path": "D:\\RESULT\\captured_tif\\20260728_210635_run01\\iter_037_shot_003.tif",
+        "debug_path": "D:\\RESULT\\out\\20260728_210635_run01\\iter_037_shot_003_debug.png"
+      }
+    ],
+    "timestamp": "2026-07-29 00:35:12"
+  }
+]

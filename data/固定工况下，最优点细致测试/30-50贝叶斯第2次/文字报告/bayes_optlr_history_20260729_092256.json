@@ -1,0 +1,2552 @@
+{
+  "summary": {
+    "successful": 30,
+    "total_successful": 30,
+    "failed_attempts": 0,
+    "total_attempts": 30,
+    "best": {
+      "iteration": 9,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 542.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "score": 30.131,
+      "x1": 15.8436,
+      "x2": 25.6233,
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_009_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_009_shot_001_debug.png"
+    },
+    "top5": [
+      {
+        "iteration": 9,
+        "params": {
+          "anode_kv": 100.0,
+          "anode_ua": 80.0,
+          "cathode_v": 542.0,
+          "bias_v": 200.0,
+          "fil_a": 0.45
+        },
+        "score": 30.131,
+        "x1": 15.8436,
+        "x2": 25.6233
+      },
+      {
+        "iteration": 12,
+        "params": {
+          "anode_kv": 100.0,
+          "anode_ua": 80.0,
+          "cathode_v": 527.0,
+          "bias_v": 200.0,
+          "fil_a": 0.45
+        },
+        "score": 30.23735,
+        "x1": 17.786250000000003,
+        "x2": 24.4529
+      },
+      {
+        "iteration": 2,
+        "params": {
+          "anode_kv": 100.0,
+          "anode_ua": 80.0,
+          "cathode_v": 638.0,
+          "bias_v": 200.0,
+          "fil_a": 0.45
+        },
+        "score": 32.1084,
+        "x1": 17.01435,
+        "x2": 27.2267
+      },
+      {
+        "iteration": 8,
+        "params": {
+          "anode_kv": 100.0,
+          "anode_ua": 80.0,
+          "cathode_v": 656.0,
+          "bias_v": 200.0,
+          "fil_a": 0.45
+        },
+        "score": 32.96025,
+        "x1": 16.44055,
+        "x2": 28.56695
+      },
+      {
+        "iteration": 7,
+        "params": {
+          "anode_kv": 100.0,
+          "anode_ua": 80.0,
+          "cathode_v": 668.0,
+          "bias_v": 200.0,
+          "fil_a": 0.45
+        },
+        "score": 33.23609999999999,
+        "x1": 15.89385,
+        "x2": 29.1894
+      }
+    ]
+  },
+  "results": [
+    {
+      "iteration": 1,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 735.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.7182421606775,
+        "anode_ua": 80.53330281528955,
+        "cathode_v": 739.3162393162393,
+        "bias_v": 91.56557564660105,
+        "fil_a": 0.4519340810254063
+      },
+      "score": 35.92855,
+      "x1": 16.42885,
+      "x2": 31.9523,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_001_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_001_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.4932478828107,
+            "cathode_v": 739.3162393162393,
+            "bias_v": 90.76447699702449,
+            "fil_a": 0.4519340810254063
+          },
+          "success": true,
+          "score": 35.7572,
+          "x1": 16.3792,
+          "x2": 31.7852,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_001_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_001_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.57907988097963,
+            "cathode_v": 739.3162393162393,
+            "bias_v": 91.16884107728694,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.3788,
+          "x1": 16.4981,
+          "x2": 31.2965,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_001_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_001_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.53330281528955,
+            "cathode_v": 739.3162393162393,
+            "bias_v": 91.56557564660105,
+            "fil_a": 0.4519340810254063
+          },
+          "success": true,
+          "score": 36.0999,
+          "x1": 16.4785,
+          "x2": 32.1194,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_001_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_001_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        3
+      ],
+      "score_relative_difference": 0.009584083764948058
+    },
+    {
+      "iteration": 2,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 638.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.52758068207828,
+        "cathode_v": 642.8571428571429,
+        "bias_v": 78.16052491035325,
+        "fil_a": 0.4519340810254063
+      },
+      "score": 32.1084,
+      "x1": 17.01435,
+      "x2": 27.2267,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_002_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_002_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5676356145571,
+            "cathode_v": 642.8571428571429,
+            "bias_v": 77.5616083009079,
+            "fil_a": 0.4519340810254063
+          },
+          "success": true,
+          "score": 32.9559,
+          "x1": 17.492,
+          "x2": 27.9306,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_002_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_002_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.52185854886702,
+            "cathode_v": 642.8571428571429,
+            "bias_v": 77.88586251621271,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 32.1935,
+          "x1": 17.4066,
+          "x2": 27.082,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_002_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_002_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.52758068207828,
+            "cathode_v": 642.8571428571429,
+            "bias_v": 78.16052491035325,
+            "fil_a": 0.4519340810254063
+          },
+          "success": true,
+          "score": 32.0233,
+          "x1": 16.6221,
+          "x2": 27.3714,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_002_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_002_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.0053148801029250965
+    },
+    {
+      "iteration": 3,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 557.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.7182421606775,
+        "anode_ua": 80.5676356145571,
+        "cathode_v": 561.050061050061,
+        "bias_v": 66.7658503089952,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 34.55605,
+      "x1": 14.731449999999999,
+      "x2": 31.25385,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_003_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_003_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.53330281528955,
+            "cathode_v": 561.050061050061,
+            "bias_v": 66.24704356450752,
+            "fil_a": 0.4519340810254063
+          },
+          "success": true,
+          "score": 35.6537,
+          "x1": 15.1514,
+          "x2": 32.2741,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_003_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_003_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5676356145571,
+            "cathode_v": 561.050061050061,
+            "bias_v": 66.52552071412222,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.3913,
+          "x1": 15.1556,
+          "x2": 30.8718,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_003_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_003_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.5676356145571,
+            "cathode_v": 561.050061050061,
+            "bias_v": 66.7658503089952,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.7208,
+          "x1": 14.3073,
+          "x2": 31.6359,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_003_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_003_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.009580911451442542
+    },
+    {
+      "iteration": 4,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 504.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.59624628061341,
+        "cathode_v": 507.93650793650795,
+        "bias_v": 59.35759517814908,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 37.24205,
+      "x1": 26.536749999999998,
+      "x2": 26.0968,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_004_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_004_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.54474708171206,
+            "cathode_v": 507.93650793650795,
+            "bias_v": 58.87693598840314,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 38.1615,
+          "x1": 28.1142,
+          "x2": 25.8049,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_004_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_004_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.57907988097963,
+            "cathode_v": 507.93650793650795,
+            "bias_v": 59.12489509422446,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 36.3226,
+          "x1": 24.9593,
+          "x2": 26.3887,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_004_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_004_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.59624628061341,
+            "cathode_v": 507.93650793650795,
+            "bias_v": 59.35759517814908,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 33.785,
+          "x1": 20.6614,
+          "x2": 26.7307,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_004_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_004_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        2
+      ],
+      "score_relative_difference": 0.050626882436829834
+    },
+    {
+      "iteration": 5,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 586.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.7182421606775,
+        "anode_ua": 80.53330281528955,
+        "cathode_v": 589.7435897435897,
+        "bias_v": 70.8896009765774,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 45.48605,
+      "x1": 13.948450000000001,
+      "x2": 43.288399999999996,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_005_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_005_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.53330281528955,
+            "cathode_v": 589.7435897435897,
+            "bias_v": 70.37079423208972,
+            "fil_a": 0.4519340810254063
+          },
+          "success": true,
+          "score": 35.4299,
+          "x1": 13.7827,
+          "x2": 32.6391,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_005_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_005_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.51613641565575,
+            "cathode_v": 589.7435897435897,
+            "bias_v": 70.63401235980774,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 44.672,
+          "x1": 14.3914,
+          "x2": 42.2903,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_005_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_005_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.53330281528955,
+            "cathode_v": 589.7435897435897,
+            "bias_v": 70.8896009765774,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 46.3001,
+          "x1": 13.5055,
+          "x2": 44.2865,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_005_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_005_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.03644564828080237
+    },
+    {
+      "iteration": 6,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 625.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.7182421606775,
+        "anode_ua": 80.52185854886702,
+        "cathode_v": 629.4261294261295,
+        "bias_v": 76.50492103456169,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 36.0209,
+      "x1": 17.377299999999998,
+      "x2": 31.544,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_006_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_006_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.5676356145571,
+            "cathode_v": 629.4261294261295,
+            "bias_v": 75.9555962462806,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.8489,
+          "x1": 17.9185,
+          "x2": 31.0494,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_006_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_006_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.58480201419088,
+            "cathode_v": 628.8156288156288,
+            "bias_v": 76.24170290684367,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 36.1929,
+          "x1": 16.8361,
+          "x2": 32.0386,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_006_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_006_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.52185854886702,
+            "cathode_v": 629.4261294261295,
+            "bias_v": 76.50492103456169,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 32.3042,
+          "x1": 17.2879,
+          "x2": 27.289,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_006_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_006_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        2
+      ],
+      "score_relative_difference": 0.009595831392316116
+    },
+    {
+      "iteration": 7,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 668.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.7182421606775,
+        "anode_ua": 80.57907988097963,
+        "cathode_v": 672.7716727716728,
+        "bias_v": 82.85648889906157,
+        "fil_a": 0.45187685969329366
+      },
+      "score": 33.23609999999999,
+      "x1": 15.89385,
+      "x2": 29.1894,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_007_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_007_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.52758068207828,
+            "cathode_v": 672.7716727716728,
+            "bias_v": 82.29953459983216,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 33.2056,
+          "x1": 15.8825,
+          "x2": 29.1608,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_007_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_007_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.52185854886702,
+            "cathode_v": 672.7716727716728,
+            "bias_v": 82.58945601586939,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 33.2666,
+          "x1": 15.9052,
+          "x2": 29.218,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_007_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_007_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.57907988097963,
+            "cathode_v": 672.7716727716728,
+            "bias_v": 82.85648889906157,
+            "fil_a": 0.45187685969329366
+          },
+          "success": true,
+          "score": 32.633,
+          "x1": 15.5686,
+          "x2": 28.6798,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_007_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_007_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        2
+      ],
+      "score_relative_difference": 0.0018370395355000347
+    },
+    {
+      "iteration": 8,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 656.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.59052414740215,
+        "cathode_v": 660.5616605616606,
+        "bias_v": 80.97581445029374,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 32.96025,
+      "x1": 16.44055,
+      "x2": 28.56695,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_008_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_008_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.57335774776837,
+            "cathode_v": 660.5616605616606,
+            "bias_v": 80.45319295033188,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 32.9574,
+          "x1": 16.5455,
+          "x2": 28.5033,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_008_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_008_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.59052414740215,
+            "cathode_v": 660.5616605616606,
+            "bias_v": 80.73548485542076,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 32.9631,
+          "x1": 16.3356,
+          "x2": 28.6306,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_008_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_008_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.59052414740215,
+            "cathode_v": 660.5616605616606,
+            "bias_v": 80.97581445029374,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 32.8672,
+          "x1": 16.1655,
+          "x2": 28.6169,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_008_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_008_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        2
+      ],
+      "score_relative_difference": 0.00017295053614658237
+    },
+    {
+      "iteration": 9,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 542.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.55619134813459,
+        "cathode_v": 545.7875457875458,
+        "bias_v": 64.69443808651866,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 30.131,
+      "x1": 15.8436,
+      "x2": 25.6233,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_009_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_009_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.64774547951477,
+            "cathode_v": 545.7875457875458,
+            "bias_v": 64.25955596246281,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 29.9716,
+          "x1": 16.2272,
+          "x2": 25.1986,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_009_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_009_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.55619134813459,
+            "cathode_v": 545.7875457875458,
+            "bias_v": 64.49225604638742,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 30.2904,
+          "x1": 15.46,
+          "x2": 26.048,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_009_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_009_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.55619134813459,
+            "cathode_v": 545.7875457875458,
+            "bias_v": 64.69443808651866,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.4268,
+          "x1": 16.4842,
+          "x2": 30.2238,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_009_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_009_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        2
+      ],
+      "score_relative_difference": 0.010636736110184411
+    },
+    {
+      "iteration": 10,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 706.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.7182421606775,
+        "anode_ua": 80.55619134813459,
+        "cathode_v": 710.6227106227107,
+        "bias_v": 87.95300221255818,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 34.549350000000004,
+      "x1": 15.14485,
+      "x2": 31.0528,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_010_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_010_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.55046921492333,
+            "cathode_v": 710.6227106227107,
+            "bias_v": 87.42275120164797,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.6167,
+          "x1": 15.2919,
+          "x2": 31.056,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_010_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_010_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.55046921492333,
+            "cathode_v": 710.6227106227107,
+            "bias_v": 87.70122835126269,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.1351,
+          "x1": 15.7472,
+          "x2": 31.4087,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_010_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_010_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.55619134813459,
+            "cathode_v": 710.6227106227107,
+            "bias_v": 87.95300221255818,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.482,
+          "x1": 14.9978,
+          "x2": 31.0496,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_010_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_010_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        3
+      ],
+      "score_relative_difference": 0.0039063859404907565
+    },
+    {
+      "iteration": 11,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 693.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.55619134813459,
+        "cathode_v": 697.8021978021978,
+        "bias_v": 86.07232776379034,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 34.06895,
+      "x1": 15.0473,
+      "x2": 30.565800000000003,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_011_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_011_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.55046921492333,
+            "cathode_v": 697.8021978021978,
+            "bias_v": 85.54207675288013,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.6921,
+          "x1": 15.3102,
+          "x2": 31.131,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_011_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_011_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.5390249485008,
+            "cathode_v": 697.8021978021978,
+            "bias_v": 85.81673914702067,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.1385,
+          "x1": 15.1226,
+          "x2": 30.6063,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_011_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_011_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.55619134813459,
+            "cathode_v": 697.8021978021978,
+            "bias_v": 86.07232776379034,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 33.9994,
+          "x1": 14.972,
+          "x2": 30.5253,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_011_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_011_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.004091248669094134
+    },
+    {
+      "iteration": 12,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 527.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.56191348134584,
+        "cathode_v": 531.1355311355311,
+        "bias_v": 62.64209964141298,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 30.23735,
+      "x1": 17.786250000000003,
+      "x2": 24.4529,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_012_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_012_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5676356145571,
+            "cathode_v": 531.1355311355311,
+            "bias_v": 62.17288471808957,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 30.1214,
+          "x1": 17.6762,
+          "x2": 24.3896,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_012_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_012_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.53330281528955,
+            "cathode_v": 531.1355311355311,
+            "bias_v": 62.42465857938506,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 30.3533,
+          "x1": 17.8963,
+          "x2": 24.5162,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_012_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_012_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.56191348134584,
+            "cathode_v": 531.1355311355311,
+            "bias_v": 62.64209964141298,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 29.066,
+          "x1": 15.5028,
+          "x2": 24.5865,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_012_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_012_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        2
+      ],
+      "score_relative_difference": 0.007698845339194046
+    },
+    {
+      "iteration": 13,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 721.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.57335774776837,
+        "cathode_v": 725.2747252747253,
+        "bias_v": 90.24948500801099,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 35.2726,
+      "x1": 15.7127,
+      "x2": 31.5795,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_013_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_013_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.57335774776837,
+            "cathode_v": 725.2747252747253,
+            "bias_v": 89.60860608834973,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.3638,
+          "x1": 16.0088,
+          "x2": 31.5328,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_013_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_013_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.55619134813459,
+            "cathode_v": 725.2747252747253,
+            "bias_v": 89.94811932555123,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.2531,
+          "x1": 15.731,
+          "x2": 31.5486,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_013_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_013_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.57335774776837,
+            "cathode_v": 725.2747252747253,
+            "bias_v": 90.24948500801099,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.2921,
+          "x1": 15.6944,
+          "x2": 31.6104,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_013_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_013_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.001106285688350652
+    },
+    {
+      "iteration": 14,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 569.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.5390249485008,
+        "cathode_v": 573.2600732600732,
+        "bias_v": 68.71519035629817,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 87.10634999999999,
+      "x1": 13.452,
+      "x2": 86.06125,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_014_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_014_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.53330281528955,
+            "cathode_v": 573.2600732600732,
+            "bias_v": 68.2230869001297,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 87.2731,
+          "x1": 13.3721,
+          "x2": 86.2425,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_014_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_014_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.56191348134584,
+            "cathode_v": 573.2600732600732,
+            "bias_v": 68.49011978332189,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 46.0255,
+          "x1": 13.8437,
+          "x2": 43.8942,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_014_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_014_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5390249485008,
+            "cathode_v": 573.2600732600732,
+            "bias_v": 68.71519035629817,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 86.9396,
+          "x1": 13.5319,
+          "x2": 85.88,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_014_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_014_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        3
+      ],
+      "score_relative_difference": 0.003835996484915974
+    },
+    {
+      "iteration": 15,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 601.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.5676356145571,
+        "cathode_v": 605.006105006105,
+        "bias_v": 73.25856412603952,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 36.48415,
+      "x1": 14.443850000000001,
+      "x2": 33.49945,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_015_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_015_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5390249485008,
+            "cathode_v": 605.006105006105,
+            "bias_v": 72.74738689250019,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 36.7457,
+          "x1": 14.0843,
+          "x2": 33.9393,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_015_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_015_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.55046921492333,
+            "cathode_v": 605.006105006105,
+            "bias_v": 73.01441977569237,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 43.6831,
+          "x1": 14.2992,
+          "x2": 41.2765,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_015_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_015_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5676356145571,
+            "cathode_v": 605.006105006105,
+            "bias_v": 73.25856412603952,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 36.2226,
+          "x1": 14.8034,
+          "x2": 33.0596,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_015_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_015_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        3
+      ],
+      "score_relative_difference": 0.014441260428572203
+    },
+    {
+      "iteration": 16,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 750.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.56191348134584,
+        "cathode_v": 754.5787545787546,
+        "bias_v": 94.67841611352712,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 35.062,
+      "x1": 15.56515,
+      "x2": 31.414450000000002,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_016_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_016_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.50469214923324,
+            "cathode_v": 754.5787545787546,
+            "bias_v": 94.0642404821851,
+            "fil_a": 0.45187685969329366
+          },
+          "success": true,
+          "score": 34.9622,
+          "x1": 15.9213,
+          "x2": 31.1266,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_016_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_016_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.52758068207828,
+            "cathode_v": 754.5787545787546,
+            "bias_v": 94.40375371938659,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.6,
+          "x1": 15.1555,
+          "x2": 32.2129,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_016_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_016_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.56191348134584,
+            "cathode_v": 754.5787545787546,
+            "bias_v": 94.67841611352712,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.1618,
+          "x1": 15.209,
+          "x2": 31.7023,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_016_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_016_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        3
+      ],
+      "score_relative_difference": 0.005709022887575629
+    },
+    {
+      "iteration": 17,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 613.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.5390249485008,
+        "cathode_v": 617.2161172161173,
+        "bias_v": 75.22697795071336,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 36.6537,
+      "x1": 16.58155,
+      "x2": 32.6625,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_017_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_017_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.55046921492333,
+            "cathode_v": 617.2161172161173,
+            "bias_v": 74.68909742885481,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 33.5105,
+          "x1": 16.6857,
+          "x2": 29.0609,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_017_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_017_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5676356145571,
+            "cathode_v": 617.2161172161173,
+            "bias_v": 74.96757457846952,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 37.3917,
+          "x1": 15.7514,
+          "x2": 33.9121,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_017_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_017_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5390249485008,
+            "cathode_v": 617.2161172161173,
+            "bias_v": 75.22697795071336,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.9157,
+          "x1": 17.4117,
+          "x2": 31.4129,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_017_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_017_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.04109623368053523
+    },
+    {
+      "iteration": 18,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 680.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.5390249485008,
+        "cathode_v": 684.3711843711844,
+        "bias_v": 84.79438467994201,
+        "fil_a": 0.45187685969329366
+      },
+      "score": 34.4519,
+      "x1": 15.841000000000001,
+      "x2": 30.5938,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_018_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_018_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72419317921721,
+            "anode_ua": 80.56191348134584,
+            "cathode_v": 684.3711843711844,
+            "bias_v": 84.22598611429008,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.3374,
+          "x1": 15.6717,
+          "x2": 30.5525,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_018_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_018_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.57335774776837,
+            "cathode_v": 684.3711843711844,
+            "bias_v": 84.51209277485313,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.5664,
+          "x1": 16.0103,
+          "x2": 30.6351,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_018_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_018_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5390249485008,
+            "cathode_v": 684.3711843711844,
+            "bias_v": 84.79438467994201,
+            "fil_a": 0.45187685969329366
+          },
+          "success": true,
+          "score": 33.9734,
+          "x1": 15.8911,
+          "x2": 30.0277,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_018_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_018_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        2
+      ],
+      "score_relative_difference": 0.006669112978851025
+    },
+    {
+      "iteration": 19,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 516.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.57907988097963,
+        "cathode_v": 520.1465201465202,
+        "bias_v": 61.52819104295415,
+        "fil_a": 0.45187685969329366
+      },
+      "score": 33.571,
+      "x1": 18.1586,
+      "x2": 28.2251,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_019_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_019_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5676356145571,
+            "cathode_v": 520.1465201465202,
+            "bias_v": 61.08186465247578,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 31.3219,
+          "x1": 20.5389,
+          "x2": 23.6477,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_019_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_019_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.49897001602197,
+            "cathode_v": 520.1465201465202,
+            "bias_v": 61.32219424734875,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 33.8314,
+          "x1": 18.9619,
+          "x2": 28.018,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_019_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_019_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.57907988097963,
+            "cathode_v": 520.1465201465202,
+            "bias_v": 61.52819104295415,
+            "fil_a": 0.45187685969329366
+          },
+          "success": true,
+          "score": 33.3106,
+          "x1": 17.3553,
+          "x2": 28.4322,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_019_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_019_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.015634662840056955
+    },
+    {
+      "iteration": 20,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 577.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72419317921721,
+        "anode_ua": 80.51613641565575,
+        "cathode_v": 581.1965811965812,
+        "bias_v": 70.12664988174258,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 43.48335,
+      "x1": 14.912849999999999,
+      "x2": 40.8403,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_020_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_020_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.57335774776837,
+            "cathode_v": 581.1965811965812,
+            "bias_v": 69.63454642557411,
+            "fil_a": 0.45187685969329366
+          },
+          "success": true,
+          "score": 43.4037,
+          "x1": 15.5362,
+          "x2": 40.5279,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_020_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_020_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.57907988097963,
+            "cathode_v": 581.1965811965812,
+            "bias_v": 69.88250553139544,
+            "fil_a": 0.45187685969329366
+          },
+          "success": true,
+          "score": 34.3917,
+          "x1": 13.1044,
+          "x2": 31.7973,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_020_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_020_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72419317921721,
+            "anode_ua": 80.51613641565575,
+            "cathode_v": 581.1965811965812,
+            "bias_v": 70.12664988174258,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 43.563,
+          "x1": 14.2895,
+          "x2": 41.1527,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_020_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_020_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        3
+      ],
+      "score_relative_difference": 0.0036701940157175946
+    },
+    {
+      "iteration": 21,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 541.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72419317921721,
+        "anode_ua": 80.57907988097963,
+        "cathode_v": 545.1770451770452,
+        "bias_v": 64.98817425803006,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 34.15275,
+      "x1": 15.91575,
+      "x2": 30.214599999999997,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_021_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_021_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.59624628061341,
+            "cathode_v": 545.1770451770452,
+            "bias_v": 64.53040360112917,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 29.5414,
+          "x1": 14.9297,
+          "x2": 25.4912,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_021_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_021_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.58480201419088,
+            "cathode_v": 545.1770451770452,
+            "bias_v": 64.77073319600214,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 33.7742,
+          "x1": 15.3682,
+          "x2": 30.0752,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_021_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_021_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72419317921721,
+            "anode_ua": 80.57907988097963,
+            "cathode_v": 545.1770451770452,
+            "bias_v": 64.98817425803006,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.5313,
+          "x1": 16.4633,
+          "x2": 30.354,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_021_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_021_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.02241651911814347
+    },
+    {
+      "iteration": 22,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 543.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.54474708171206,
+        "cathode_v": 547.008547008547,
+        "bias_v": 65.23994811932555,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 34.39385,
+      "x1": 15.57065,
+      "x2": 30.6528,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_022_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_022_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.58480201419088,
+            "cathode_v": 547.008547008547,
+            "bias_v": 64.76310368505379,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 30.4613,
+          "x1": 16.3955,
+          "x2": 25.6725,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_022_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_022_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.52185854886702,
+            "cathode_v": 547.008547008547,
+            "bias_v": 65.0263218127718,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.1761,
+          "x1": 16.7696,
+          "x2": 30.9215,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_022_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_022_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.54474708171206,
+            "cathode_v": 547.008547008547,
+            "bias_v": 65.23994811932555,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 33.6116,
+          "x1": 14.3717,
+          "x2": 30.3841,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_022_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_022_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.04654643039902876
+    },
+    {
+      "iteration": 23,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 540.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.55619134813459,
+        "cathode_v": 543.9560439560439,
+        "bias_v": 64.79362172884719,
+        "fil_a": 0.45187685969329366
+      },
+      "score": 35.428,
+      "x1": 17.9384,
+      "x2": 30.550649999999997,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_023_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_023_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5104142824445,
+            "cathode_v": 543.9560439560439,
+            "bias_v": 64.31677729457542,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 30.822,
+          "x1": 17.0151,
+          "x2": 25.6998,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_023_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_023_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.57907988097963,
+            "cathode_v": 543.9560439560439,
+            "bias_v": 64.5685511558709,
+            "fil_a": 0.45187685969329366
+          },
+          "success": true,
+          "score": 35.4393,
+          "x1": 17.8357,
+          "x2": 30.6241,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_023_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_023_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.55619134813459,
+            "cathode_v": 543.9560439560439,
+            "bias_v": 64.79362172884719,
+            "fil_a": 0.45187685969329366
+          },
+          "success": true,
+          "score": 35.4167,
+          "x1": 18.0411,
+          "x2": 30.4772,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_023_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_023_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.0006381170464781917
+    },
+    {
+      "iteration": 24,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 647.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.7182421606775,
+        "anode_ua": 80.5390249485008,
+        "cathode_v": 651.4041514041514,
+        "bias_v": 79.99542229343099,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 33.2823,
+      "x1": 16.1147,
+      "x2": 29.1162,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_024_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_024_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5676356145571,
+            "cathode_v": 651.4041514041514,
+            "bias_v": 79.44609750514992,
+            "fil_a": 0.45187685969329366
+          },
+          "success": true,
+          "score": 33.3906,
+          "x1": 16.6231,
+          "x2": 28.9586,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_024_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_024_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.63057907988097,
+            "cathode_v": 651.4041514041514,
+            "bias_v": 79.73983367666132,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 32.7493,
+          "x1": 16.0801,
+          "x2": 28.5297,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_024_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_024_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.5390249485008,
+            "cathode_v": 651.4041514041514,
+            "bias_v": 79.99542229343099,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 33.174,
+          "x1": 15.6063,
+          "x2": 29.2738,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_024_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_024_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        3
+      ],
+      "score_relative_difference": 0.006529209621993118
+    },
+    {
+      "iteration": 25,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 594.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.55619134813459,
+        "cathode_v": 597.6800976800977,
+        "bias_v": 72.48416876478218,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 36.400850000000005,
+      "x1": 14.4651,
+      "x2": 33.402950000000004,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_025_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_025_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72419317921721,
+            "anode_ua": 80.56191348134584,
+            "cathode_v": 597.6800976800977,
+            "bias_v": 71.98062104219119,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 36.0874,
+          "x1": 14.4967,
+          "x2": 33.0477,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_025_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_025_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.5676356145571,
+            "cathode_v": 597.6800976800977,
+            "bias_v": 72.23620965896086,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 37.5171,
+          "x1": 15.2425,
+          "x2": 34.2811,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_025_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_025_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.55619134813459,
+            "cathode_v": 597.6800976800977,
+            "bias_v": 72.48416876478218,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 36.7143,
+          "x1": 14.4335,
+          "x2": 33.7582,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_025_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_025_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        3
+      ],
+      "score_relative_difference": 0.01737171422712634
+    },
+    {
+      "iteration": 26,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 713.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.54474708171206,
+        "cathode_v": 717.3382173382173,
+        "bias_v": 89.63912413214312,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 35.399,
+      "x1": 14.93195,
+      "x2": 32.0955,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_026_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_026_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5104142824445,
+            "cathode_v": 717.3382173382173,
+            "bias_v": 89.0402075226978,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.425,
+          "x1": 14.9939,
+          "x2": 32.0953,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_026_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_026_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.54474708171206,
+            "cathode_v": 717.3382173382173,
+            "bias_v": 89.34157320515754,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.7054,
+          "x1": 15.4315,
+          "x2": 32.1985,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_026_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_026_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.54474708171206,
+            "cathode_v": 717.3382173382173,
+            "bias_v": 89.63912413214312,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.373,
+          "x1": 14.87,
+          "x2": 32.0957,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_026_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_026_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        3
+      ],
+      "score_relative_difference": 0.0014700477765527268
+    },
+    {
+      "iteration": 27,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 674.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.52758068207828,
+        "cathode_v": 678.8766788766789,
+        "bias_v": 84.19546807049669,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 34.132999999999996,
+      "x1": 15.5043,
+      "x2": 30.40635,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_027_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_027_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.7182421606775,
+            "anode_ua": 80.52758068207828,
+            "cathode_v": 678.8766788766789,
+            "bias_v": 83.63851377126726,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.0847,
+          "x1": 15.8049,
+          "x2": 30.1988,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_027_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_027_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.52758068207828,
+            "cathode_v": 678.8766788766789,
+            "bias_v": 83.90936140993362,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.409,
+          "x1": 15.9086,
+          "x2": 30.5107,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_027_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_027_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.52758068207828,
+            "cathode_v": 678.8766788766789,
+            "bias_v": 84.19546807049669,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.1813,
+          "x1": 15.2037,
+          "x2": 30.6139,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_027_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_027_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        3
+      ],
+      "score_relative_difference": 0.0028341161870282633
+    },
+    {
+      "iteration": 28,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 728.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.5104142824445,
+        "cathode_v": 732.6007326007326,
+        "bias_v": 92.03860532539865,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 36.4277,
+      "x1": 15.20115,
+      "x2": 33.1039,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_028_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_028_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72419317921721,
+            "anode_ua": 80.56191348134584,
+            "cathode_v": 732.6007326007326,
+            "bias_v": 91.45876249332417,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 36.5566,
+          "x1": 15.0919,
+          "x2": 33.2959,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_028_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_028_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.51613641565575,
+            "cathode_v": 732.6007326007326,
+            "bias_v": 91.75631342030975,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 36.2988,
+          "x1": 15.3104,
+          "x2": 32.9119,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_028_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_028_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5104142824445,
+            "cathode_v": 732.6007326007326,
+            "bias_v": 92.03860532539865,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 35.1909,
+          "x1": 14.6219,
+          "x2": 32.0094,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_028_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_028_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        2
+      ],
+      "score_relative_difference": 0.007102163156908855
+    },
+    {
+      "iteration": 29,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 631.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72121766994735,
+        "anode_ua": 80.57335774776837,
+        "cathode_v": 635.5311355311355,
+        "bias_v": 78.14908064393073,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 33.538,
+      "x1": 16.8667,
+      "x2": 28.98805,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_029_shot_002.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_029_shot_002_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5390249485008,
+            "cathode_v": 635.5311355311355,
+            "bias_v": 77.65316243228808,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 37.7023,
+          "x1": 17.1248,
+          "x2": 33.5887,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_029_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_029_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.5390249485008,
+            "cathode_v": 635.5311355311355,
+            "bias_v": 77.9163805600061,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 32.9347,
+          "x1": 16.5199,
+          "x2": 28.4918,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_029_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_029_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72121766994735,
+            "anode_ua": 80.57335774776837,
+            "cathode_v": 635.5311355311355,
+            "bias_v": 78.14908064393073,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 34.1413,
+          "x1": 17.2135,
+          "x2": 29.4843,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_029_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_029_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        2,
+        3
+      ],
+      "score_relative_difference": 0.036636131496567505
+    },
+    {
+      "iteration": 30,
+      "params": {
+        "anode_kv": 100.0,
+        "anode_ua": 80.0,
+        "cathode_v": 662.0,
+        "bias_v": 200.0,
+        "fil_a": 0.45
+      },
+      "feedback": {
+        "anode_kv": 99.72419317921721,
+        "anode_ua": 80.57335774776837,
+        "cathode_v": 666.6666666666666,
+        "bias_v": 82.62760357061113,
+        "fil_a": 0.45190547035934997
+      },
+      "score": 33.51625,
+      "x1": 15.93485,
+      "x2": 29.484949999999998,
+      "success": true,
+      "reason": "",
+      "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_030_shot_001.tif",
+      "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_030_shot_001_debug.png",
+      "shots": [
+        {
+          "shot": 1,
+          "feedback_before_capture": {
+            "anode_kv": 99.72419317921721,
+            "anode_ua": 80.56191348134584,
+            "cathode_v": 666.6666666666666,
+            "bias_v": 82.07064927138171,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 33.194,
+          "x1": 15.998,
+          "x2": 29.0845,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_030_shot_001.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_030_shot_001_debug.png"
+        },
+        {
+          "shot": 2,
+          "feedback_before_capture": {
+            "anode_kv": 99.72419317921721,
+            "anode_ua": 80.57335774776837,
+            "cathode_v": 666.6666666666666,
+            "bias_v": 82.36438544289311,
+            "fil_a": 0.4519340810254063
+          },
+          "success": true,
+          "score": 33.8385,
+          "x1": 15.8717,
+          "x2": 29.8854,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_030_shot_002.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_030_shot_002_debug.png"
+        },
+        {
+          "shot": 3,
+          "feedback_before_capture": {
+            "anode_kv": 99.72419317921721,
+            "anode_ua": 80.57335774776837,
+            "cathode_v": 666.6666666666666,
+            "bias_v": 82.62760357061113,
+            "fil_a": 0.45190547035934997
+          },
+          "success": true,
+          "score": 38.5126,
+          "x1": 16.059,
+          "x2": 35.0047,
+          "reason": "",
+          "image_path": "D:\\RESULT\\captured_tif\\20260729_092256\\iter_030_shot_003.tif",
+          "debug_path": "D:\\RESULT\\out\\20260729_092256\\iter_030_shot_003_debug.png"
+        }
+      ],
+      "accepted_shots": [
+        1,
+        2
+      ],
+      "score_relative_difference": 0.01941615954690609
+    }
+  ]
+}

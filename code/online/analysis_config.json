@@ -1,0 +1,92 @@
+{
+  "_note": "算法参数按模块分组；路径在 io。每个参数下的 *_comment 为说明，加载时会被忽略。无命令行参数时，run_offline_single / run_offline_batch 默认读取工程根目录下的本文件，全部参数（含 I/O）均由此提供。可选：环境变量 ANALYSIS_CONFIG，或将配置文件路径作为脚本唯一命令行参数。",
+
+  "io": {
+    "single_image": "captured_tif/single.tif",
+    "single_image_comment": "单张分析 TIF；与采集默认输出 captured_tif/single.tif 同名。相对路径相对本 JSON 所在目录",
+    "save_debug_path": "out",
+    "save_debug_path_comment": "单张调试图。写目录（无 .png 等扩展名）则生成 <TIF主名>_debug.png，默认 single.tif 对应 out/single_debug.png；写带扩展名路径则保存到该文件",
+    "batch_input_dir": "captured_tif",
+    "batch_input_dir_comment": "批量脚本 run_offline_batch 扫描的目录（填 *.tif/*.tiff）；空字符串表示未启用批量",
+    "batch_output_dir": "out",
+    "batch_output_dir_comment": "批量结果根目录：其下写 results.csv，若开启 debug 则还有 debug_imgs/",
+    "save_debug_images": true,
+    "save_debug_images_comment": "批量时是否为每张 TIF 生成调试图 PNG"
+  },
+
+  "spot": {
+    "percentile": 100,
+    "percentile_comment": "白斑灰度阈值取全图该分位数；越大越只保留更高亮像素",
+    "min_area": 3000,
+    "min_area_comment": "白斑连通域最小像素面积，小于此值的区域不作为候选",
+    "morph_kernel": 8,
+    "morph_kernel_comment": "二值图形态学开运算核边长（像素），0 表示不做开运算",
+    "saturation_floor": null,
+    "saturation_floor_comment": "阈值下限：thresh=max(分位数阈值, 本值)；null 表示不设下限；14-bit 满幅约 16383",
+    "relaxed_saturation_floors": [16380, 16367, 16360, 15450, 14150, 13850],
+    "relaxed_saturation_floors_comment": "若按当前阈值二值后总面积仍小于 min_area，则依次改用这些固定灰度作阈值重试"
+  },
+
+  "lines": {
+    "min_segment_length": 10.0,
+    "min_segment_length_comment": "拟合得到的 L1/L2 线段长度（像素）低于此值则该线判为无效",
+    "black_delta": 0.0,
+    "black_delta_comment": "与黑点/暗区判据相关的偏置（灰度）；当前边线实现未使用，与 JSON 对齐预留",
+    "center_size": 20,
+    "center_size_comment": "中心参考窗口边长（像素）；当前边线实现未使用，预留",
+    "black_band_width": 20,
+    "black_band_width_comment": "暗带统计宽度（像素）；当前边线实现未使用，预留",
+    "end_length": 50,
+    "end_length_comment": "端点区域长度（像素）；当前边线实现未使用，预留",
+    "stop_before_mask": 50,
+    "stop_before_mask_comment": "沿边界距 mask 的预留距离（像素）；当前边线实现未使用，预留",
+    "grad_min": 80.0,
+    "grad_min_comment": "梯度幅值下限类阈值；当前边线实现未使用，预留",
+    "angle_half_range_deg": 25.0,
+    "angle_half_range_deg_comment": "候选线角度搜索半宽（度）；当前边线实现未使用，预留",
+    "angle_step_deg": 2.0,
+    "angle_step_deg_comment": "角度搜索步长（度）；当前边线实现未使用，预留",
+    "edge_shrink_ratio": 0.06,
+    "edge_shrink_ratio_comment": "从上边/右边采样点列两端各裁掉的比例，减轻拐角粘连处对拟合的影响",
+    "line_keep_ratio": 0.75,
+    "line_keep_ratio_comment": "在拟合得到的整条线上只保留中段的比例，作为最终 L 线端点"
+  },
+
+  "profile": {
+    "half_length": 100.0,
+    "half_length_comment": "沿法线采样半长度（像素），采样区间为 [-half_length, +half_length]",
+    "samples": 301,
+    "samples_comment": "法线方向采样点数；建议奇数使中点落在白斑法向基点上",
+    "smooth_window": 21,
+    "smooth_window_comment": "Savitzky-Golay 平滑窗口长度（须为奇数，代码中会自动修正）",
+    "smooth_polyorder": 3,
+    "smooth_polyorder_comment": "Savitzky-Golay 多项式阶数，须小于 smooth_window",
+    "prefilter_sigma": 1.5,
+    "prefilter_sigma_comment": "剖面前对整图高斯平滑的 σ；≤0 表示不做高斯",
+    "prefilter_gaussian_ksize": 9,
+    "prefilter_gaussian_ksize_comment": "整图高斯核边长（像素），须为奇数；若为偶数运行时会 +1",
+    "base_offset": 2.0,
+    "base_offset_comment": "法线采样基点相对拟合线段中点、沿外法向的偏移（像素）",
+    "peak_search_half": 125.0,
+    "peak_search_half_comment": "在 |t|≤该值内寻找 dy/dt<0 的主峰；与法线坐标 t 同单位（像素）",
+    "parallel_avg_half_width": 2.0,
+    "parallel_avg_half_width_comment": "沿 L 线平行方向、以法线采样点为中心做局部平均的半宽度（像素，按法线步长取整后覆盖 2*n+1 个点）；0 表示不做平行平均",
+    "parallel_avg_step_scale": 1.0,
+    "parallel_avg_step_scale_comment": "平行方向采样步长 = 法线方向步长 × 本系数",
+    "multi_profile_half_width": 5.0,
+    "multi_profile_half_width_comment": "多条法线叠加时，平行于 L 线的方向、以 base_point 为中心的半宽度（像素）",
+    "multi_profile_step_scale": 2.0,
+    "multi_profile_step_scale_comment": "多条法线叠加时，相邻法线间距 = 法线方向步长 × 本系数",
+    "profile_method": "parallel",
+    "profile_method_comment": "剖面计算方法：parallel=平行灰度平均，multi=多条法线叠加",
+    "monotone_fit": true,
+    "monotone_fit_comment": "是否在 SG 求导前对灰度剖面做单调拟合",
+    "monotone_method": "erf",
+    "monotone_method_comment": "单调拟合方法：pchip 保形插值，erf 严格单调且微分单峰"
+  },
+
+  "fwhm": {
+    "side_peak_ratio": 1.0,
+    "side_peak_ratio_comment": "主峰外搜索区内若存在过强的负微分旁峰：side_min_dy < -ratio×主峰深度则 FWHM 判失败"
+  }
+}

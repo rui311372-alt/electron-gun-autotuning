@@ -1,0 +1,20 @@
+{
+  "_note": "仅供 bayes_optlr_9060.py 的 Ua=90 kV、Ia=60 uA 优化使用。",
+  "slave": 4,
+  "serial": {"port": "COM3", "baudrate": 9600, "bytesize": 8, "parity": "N", "stopbits": 1, "timeout_s": 1.0},
+  "bias_stable": {"eps_v": 5, "samples": 6, "poll_s": 5, "timeout_s": 200.0},
+  "param_limits": {
+    "anode_kv": [90],
+    "anode_kv_comment": "bayes_optlr_9060 固定 Ua=90 kV",
+    "anode_ua": [60],
+    "anode_ua_comment": "bayes_optlr_9060 固定 Ia=60 uA",
+    "cathode_v": {"min": 500, "max": 750},
+    "cathode_v_comment": "Uc 搜索空间",
+    "bias_v": {"min": 200, "max": 200},
+    "bias_v_comment": "固定 Ug=200 V",
+    "fil_a": 0.45,
+    "fil_a_comment": "固定 If=0.45 A",
+    "exposure_constant_c": 183678750,
+    "exposure_constant_c_comment": "统一曝光常数；Ua=90、Ia=60 时 round(C/(Ua^2*Ia))=378 ms"
+  }
+}

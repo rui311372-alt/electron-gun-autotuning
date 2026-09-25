@@ -1,0 +1,32 @@
+{
+  "_note": "仅供 bayes_optlr_three.py 的 Ua/Ia/Uc 三变量联合贝叶斯优化使用；Ug、If固定。",
+  "slave": 4,
+  "serial": {
+    "port": "COM3",
+    "baudrate": 9600,
+    "bytesize": 8,
+    "parity": "N",
+    "stopbits": 1,
+    "timeout_s": 1.0
+  },
+  "bias_stable": {
+    "eps_v": 5,
+    "samples": 6,
+    "poll_s": 5,
+    "timeout_s": 200.0
+  },
+  "param_limits": {
+    "anode_kv": {"min": 70, "max": 99},
+    "anode_kv_comment": "Ua搜索空间，严格小于100 kV",
+    "anode_ua": {"min": 30, "max": 89},
+    "anode_ua_comment": "Ia搜索空间，严格小于90 uA",
+    "cathode_v": {"min": 500, "max": 750},
+    "cathode_v_comment": "Uc 搜索空间",
+    "bias_v": {"min": 200, "max": 200},
+    "bias_v_comment": "固定 Ug=200 V",
+    "fil_a": 0.45,
+    "fil_a_comment": "固定 If=0.45 A",
+    "exposure_constant_c": 183678750,
+    "exposure_constant_c_comment": "沿用统一曝光常数；每组按推荐的Ua、Ia计算 round(C/(Ua^2*Ia)) ms"
+  }
+}

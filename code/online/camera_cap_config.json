@@ -1,0 +1,5 @@
+{
+  "output_dir": "captured_tif/single.tif",
+  "start_sleep_seconds": 5,
+  "exposure_time_us": 184
+}
